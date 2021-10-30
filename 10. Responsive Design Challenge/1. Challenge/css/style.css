@@ -1,0 +1,115 @@
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.container {
+  max-width: 570px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 3.75rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.625rem;
+  margin-top: 0;
+  border-top: solid 1px #c4c4c4;
+  border-bottom: solid 1px #c4c4c4;
+
+  /* em look at parent (font-size itself) */
+  /* font-size 42 px */
+  /* padding: 20px 0; */
+  padding: 0.5em 0;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 2.25rem;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.accent-text {
+  display: block;
+}
+
+h1 .accent-text {
+  font-size: 5rem;
+}
+
+h2 .accent-text {
+  font-size: 3.75rem;
+}
+
+.accent-text,
+.name,
+time {
+  font-weight: 900;
+  color: #99d930;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+a {
+  color: #99d930;
+  font-weight: 900;
+}
+
+a:hover,
+a:focus {
+  color: #131313;
+}
+
+.small-text {
+  font-size: 1rem;
+  /* margin-top: 5px; */
+  margin-top: 0.3125rem;
+}
+
+header,
+section {
+  /* padding: 100px 0; */
+  /* danger will come if font-size here */
+  padding: 6.25rem 0;
+}
+
+.inverse {
+  color: #fff;
+  background: #252525;
+}
+
+.inverse .btn:hover,
+.inverse .btn:focus {
+  background: #fff;
+  color: #252525;
+}
+
+.btn {
+  display: inline-block;
+  color: #252525;
+  text-decoration: none;
+  background: #99d930;
+  /* padding: 10px 25px; */
+  padding: 0.625em 1.5625em;
+  /* margin-top: 25px; */
+  margin-top: 1.52;
+}
+
+.btn:hover,
+.btn:focus {
+  background: #252525;
+  color: #fff;
+}
